@@ -1,12 +1,9 @@
-<h4 align="center">
+<h3 align="center">
 <img src="./assets/logo.svg" width="350px" /><br>
   <b>Seja um heroi e adote uma causa!</b> 
-</h4>
+</h3>
 <p align="center">
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-red">
-  </a>
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
+<img src="./assets/TelaLogin.png" width="600px" />
 </p>
 
 <br>
@@ -54,12 +51,12 @@ Este fantástico projeto foi desenvolvido com as seguintes tecnologias:
   </thead>
   <tbody>
     <tr>
-      <td>[Node.js](https://nodejs.org/en/)</td>
-      <td>[React](https://pt-br.reactjs.org/)</td>
-      <td>React Native - [Expo](https://expo.io/)</td>
+      <td>Node.js - (https://nodejs.org/en/)</td>
+      <td>ReactJS - (https://pt-br.reactjs.org/)</td>
+      <td>React Native/Expo - (https://expo.io/)</td>
     </tr>
     <tr>
-      <td>[Express](https://expressjs.com/pt-br/)</td>
+      <td>Express - (https://expressjs.com/pt-br/)</td>
       <td>Styled-Components</td>
       <td>Styled-Components</td>
     </tr>
@@ -79,21 +76,21 @@ Este fantástico projeto foi desenvolvido com as seguintes tecnologias:
       <td>Eslint</td>
     </tr>
     <tr>
-      <td>[Knex](https://knexjs.org/)</td>
+      <td>Knex - (https://knexjs.org/)</td>
       <td>Prettier</td>
       <td>Prettier</td>
     </tr>
   </tbody>
 </table>
 
-## :muscle: Projeto
+## Projeto
 
 <b>Be the Hero</b> é um projeto que visa conectar ONGs que precisam de colaboração à heróis (financiadores) que possam ajudar. 
 
 ## Getting started
 
 ### Instalação - Backend
-Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
+Configure o Knex e atualize a string de conexão com seu `User:Senha` no arquivo `knexfile.js`.  
 Para instalar as dependências e executar o **Servidor** (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
 ```bash
 cd backend
@@ -122,7 +119,7 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 ### Insomnia 
 Para testar a API do DevRadar, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` → `Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório.
 
-### :recycle: Como contribuir
+## Como contribuir
 
 - Fork esse repositório;
 - Crie uma branch com a sua feature: `git checkout -b my-feature`
@@ -130,7 +127,7 @@ Para testar a API do DevRadar, baixe e instale o [Insomnia](https://insomnia.res
 - Push a sua branch: `git push origin my-feature`
 
 ---
-### :memo: Licença
+## Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
