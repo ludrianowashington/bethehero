@@ -1,5 +1,5 @@
 <h4 align="center">
-<img src="./assets/logo.svg" width="250px" /><br>
+<img src="./assets/logo.svg" width="350px" /><br>
   <b>Seja um heroi e adote uma causa!</b> 
 </h4>
 <p align="center">
