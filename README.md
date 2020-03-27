@@ -3,7 +3,7 @@
   <b>Seja um heroi e adote uma causa!</b> 
 </h3>
 <p align="center">
-<img src="./assets/TelaLogin.png" width="600px" />
+<img src="./assets/TelaLogin.png" width="950px" />
 </p>
 
 <br>
