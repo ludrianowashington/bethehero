@@ -1,4 +1,4 @@
-<h3 align="center">
+<h4 align="center">
 <img src="./assets/logo.svg" width="250px" /><br>
   <b>Seja um heroi e adote uma causa!</b> 
 </h4>
@@ -12,33 +12,115 @@
 <br>
 
 <p align="center">
-  <img alt="Languagues" src="https://img.shields.io/github/languages/count/solrachix/be-the-hero">
-  <img alt="Top Languague" src="https://img.shields.io/github/languages/top/solrachix/be-the-hero">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/solrachix/be-the-hero">
-  <a href="https://github.com/solrachix/be-the-hero/commits/master">
-    <img alt="Last commit date" src="https://img.shields.io/github/last-commit/solrachix/be-the-hero">
+  <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
+    <img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
   </a>
-   <a href="https://github.com/solrachix/be-the-hero/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/solrachix/be-the-hero">
+  <a aria-label="Versão do React" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16120-november-14-2019">
+    <img src="https://img.shields.io/badge/react-16.12.0-informational?logo=react"></img>
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/solrachix/be-the-hero">
+  <a aria-label="Versão do Expo" href="https://www.npmjs.com/package/expo-cli/v/3.11.5">
+    <img src="https://img.shields.io/badge/expo--CLI-3.11.5-informational?logo=expo"></img>
+  </a>
+  <a aria-label="Completo" href="https://rocketseat.com.br/week-10/aulas#4">
+    <img src="https://img.shields.io/badge/OmniStack-done-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
+  <a aria-label="Desafios" href="DESAFIOS.md">
+  	<img src="https://img.shields.io/badge/desafios-OK-green"></img>
+  </a>
+  <a aria-label="Languages">
+    <img alt="Languages" src="https://img.shields.io/github/languages/count/ludrianowashington/bethehero">
+  </a>
+  <a aria-label="Top Language">
+    <img alt="Top Language" src="https://img.shields.io/github/languages/top/ludrianowashington/bethehero">
+  </a>
+  <a aria-label="Repository size">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/ludrianowashington/bethehero">
+  </a>
+  <a aria-label="License" href="LICENSE.md">
+  	<img alt="License" src="https://img.shields.io/github/license/ludrianowashington/bethehero">
+  </a>
+  
 </p>
 <p align="center">
 
-### :rocket: Tecnologias usadas
+## :rocket: Tecnologias usadas
 Este fantástico projeto foi desenvolvido com as seguintes tecnologias:
-- [Node.js](https://nodejs.org/en/)
-- [Expo](https://expo.io/)
-- [Express](https://expressjs.com/pt-br/)
-- [React](https://pt-br.reactjs.org/)
 
+<table>
+  <thead>
+    <th><b>Back-end</b></th>
+    <th><b>Front-end</b></th>
+    <th><b>Mobile</b></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[Node.js](https://nodejs.org/en/)</td>
+      <td>[React](https://pt-br.reactjs.org/)</td>
+      <td>React Native - [Expo](https://expo.io/)</td>
+    </tr>
+    <tr>
+      <td>[Express](https://expressjs.com/pt-br/)</td>
+      <td>Styled-Components</td>
+      <td>Styled-Components</td>
+    </tr>
+    <tr>
+      <td>SqLite</td>
+      <td>Axios</td>
+      <td>Axios</td>
+    </tr>
+    <tr>
+      <td>Nodemon</td>
+      <td>React Hooks</td>
+      <td>React Hooks</td>
+    </tr>
+    <tr>
+      <td>Cors</td>
+      <td>Eslint</td>
+      <td>Eslint</td>
+    </tr>
+    <tr>
+      <td>[Knex](https://knexjs.org/)</td>
+      <td>Prettier</td>
+      <td>Prettier</td>
+    </tr>
+  </tbody>
+</table>
 
-### :muscle: Projeto
+## :muscle: Projeto
 
 <b>Be the Hero</b> é um projeto que visa conectar ONGs que precisam de colaboração à heróis (financiadores) que possam ajudar. 
 
-### :rocket: Qual a importância de ajudar uma ONG? <br>
-As organizações não governamentais <b>(ONGs)</b> são entidades privadas da sociedade civil, sem fins lucrativos, cujo propósito é defender e promover uma causa. Essa causa pode ser virtualmente de qualquer tipo: <b>direitos humanos</b>, <b>direitos animais</b>, <b>direitos indígenas</b>, <b>gênero</b>, <b>luta contra o racismo</b>, <b>meio ambiente</b>, <b>questões urbanas</b>, <b>imigrantes</b>, entre muitos outros.
+## Getting started
+
+### Instalação - Backend
+Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
+Para instalar as dependências e executar o **Servidor** (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
+```bash
+cd backend
+yarn install
+yarn dev
+```
+
+### Instalação - Web
+Para iniciar o **Web** do React utilize os comandos:
+```bash
+cd frontend
+yarn install
+yarn start
+```
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.  
+
+### Instalação - Mobile
+Para iniciar o **Mobile** do React utilize os comandos:
+```bash
+cd mobile
+yarn install
+yarn start
+```
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19000` contendo o Projeto desenvolvido no dia 4 de 5.  
+
+### Insomnia 
+Para testar a API do DevRadar, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` → `Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório.
 
 ### :recycle: Como contribuir
 
@@ -47,19 +129,10 @@ As organizações não governamentais <b>(ONGs)</b> são entidades privadas da s
 - Commit suas mudanças: `git commit -m 'feat: My new feature'`
 - Push a sua branch: `git push origin my-feature`
 
-### :mortar_board: Quem ministrou?
-
-A semana foi ministrada pelo <b>Mestre Jedi</b> [Diego Fernandes](https://github.com/diego3g)
-
+---
 ### :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-### :muscle: Quem deu aquela força para não desistir?
-
-O pessoal da He4rt Developers e da Rocketseat deram aquela mão quando as coisas ficaram ruins e me salvaram, sem me deixar desistir!
-Entrem na [comunidade da He4rt Developers](https://discord.gg/8mA4CM2) e [na comunidade da Rocketseat :rocket:](https://discordapp.com/invite/gCRAFhc)
-
 ---
-
-Feito com ❤️ by João Carli :wave:
+Feito com ❤️ by Ludriano Washington :wave:
